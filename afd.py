@@ -16,7 +16,7 @@ def verify_afd(name, final_states, initial_state, delta, string, sigma):
                 current_state = function[2]
                 print("Next state: ", current_state)
                 break
-        print("Last state: ", current_state)
+    print("Last state: ", current_state)
 
         # If it stop in a goal state, returns True. Otherwise, False.
     if current_state in final_states:
